@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install --check-files
+
+PATH: 
+  C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-openj9\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\WinAVR-20090313\bin;C:\WinAVR-20090313\utils\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2019a\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\marce\anaconda3;C:\Users\marce\anaconda3\Library\mingw-w64\bin;C:\Users\marce\anaconda3\Library\usr\bin;C:\Users\marce\anaconda3\Library\bin;C:\Users\marce\anaconda3\Scripts;C:\Users\marce\AppData\Roaming\local\bin;C:\Users\marce\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\marce\AppData\Local\Programs\Python\Python37-32\;C:\Users\marce\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\marce\AppData\Local\Programs\Python\Python37\;C:\Users\marce\AppData\Local\Microsoft\WindowsApps;C:\Users\marce\AppData\Local\GitHubDesktop\bin;C:\altera\13.0sp1\modelsim_ase\win32aloem;C:\Users\marce\AppData\Local\atom\bin;C:\Users\marce\AppData\Local\Microsoft\WindowsApps;C:\Users\marce\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\marce\AppData\Roaming\npm;C:\Users\marce\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\marce\AppData\Local\Yarn\Cache\v6\npm-react-dom-16.9.0-5e65527a5e26f22ae3701131bcccaee9fb0d3962-integrity\node_modules\react-dom\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^36.0.0",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.0.0",
+      "@babel/core": "^7.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
